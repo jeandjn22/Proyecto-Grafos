@@ -1,0 +1,37 @@
+El grafo utilizado fue:
+
+A ---------------- B
+                /  |
+               /   |
+              /    |
+            C      |
+           /  \    |
+          /     \  |
+         /        \|
+        E -------- D
+
+
+1. Para la primera prueba el grafo reconstruido quedaria de esta forma, "Encuentra y muestra el camino más corto de A a E" (Eliminado C) :
+
+A ---------------- B
+                   |
+                   |
+                   |
+                   |
+                   |
+                   |
+                   |
+        E -------- D
+
+2. Para la segunda prueba el grafo reconstruido quedaria de esta forma, "Encuentra y muestra el camino mas corto de E a B" (Eliminando B y recosntruyendo C): 
+
+A ---------------- B
+                  /  
+                 /   
+                /    
+               C      
+              /     
+             /      
+            /        
+           E 
+
