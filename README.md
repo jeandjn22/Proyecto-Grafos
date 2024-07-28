@@ -1,5 +1,5 @@
 # Proyecto Manejo de Grafos
-Este programa en C++ implementa una clase Grafo que permite crear y manipular grafos no dirigidos con nodos y aristas ponderadas. El programa incluye funcionalidades para agregar y eliminar nodos, conectar nodos con pesos específicos y encontrar el camino más corto entre dos nodos.
+Este programa en C++ implementa una clase Grafo que permite crear y manipular grafos no dirigidos con nodos y aristas. El programa incluye funcionalidades para agregar y eliminar nodos, conectar nodos con pesos específicos y encontrar el camino más corto entre dos nodos.
 
 ## 📝 Funcionalidades 
 - **Agregar Nodo:** Permite agregar un nuevo nodo al grafo.
@@ -18,7 +18,7 @@ Este programa en C++ implementa una clase Grafo que permite crear y manipular gr
 - `agregarNodo`: Agrega un nodo al grafo si no existe ya y si hay espacio.
 - `conectarNodos`: Conecta dos nodos con un peso especificado.
 - `eliminarNodo`: Elimina un nodo y todas sus conexiones del grafo.
-- `encontrarCaminoMasCorto`: Encuentra y muestra el camino más corto entre dos nodos usando el algoritmo de Dijkstra.
+- `encontrarCaminoMasCorto`: Encuentra y muestra el camino más corto entre dos nodos.
 ## 📄 Función main
 - **Crea una instancia del grafo.**
 - **Agrega nodos al grafo.**
